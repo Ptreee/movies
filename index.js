@@ -9,8 +9,6 @@ const fetchData = async (searchTerm) => {
   if (response.data.Error) {
     return [];
   }
-
-  console.log(response.data.Search);
   return response.data.Search;
 };
 
